@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 12px;
+  color: #333;
+}
+.wrap {
+  padding: 10px;
+}
+h1 {
+  font-size: 16px;
+  margin: 4px 0 10px;
+}
+.bar {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 8px;
+}
+.bar select,
+.bar button {
+  font-size: 11px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 3px 5px;
+  text-align: left;
+  font-size: 11px;
+}
+th {
+  background: #f3f3f3;
+}
+td.req {
+  color: #999;
+  font-size: 10px;
+}
+td button {
+  font-size: 10px;
+}
+.toast {
+  position: fixed;
+  bottom: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #333;
+  color: #fff;
+  padding: 6px 12px;
+  font-size: 12px;
+}
